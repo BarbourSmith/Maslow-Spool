@@ -9,11 +9,11 @@
             "ioValues": [
                 {
                     "name": "Center Thickness",
-                    "ioValue": 10
+                    "ioValue": 20
                 },
                 {
-                    "name": "Input586132",
-                    "ioValue": 10
+                    "name": "Side Metal Thickness",
+                    "ioValue": 2
                 }
             ],
             "topLevel": false,
@@ -21,18 +21,65 @@
                 {
                     "atomType": "Input",
                     "name": "Center Thickness",
-                    "x": 142,
-                    "y": 105,
+                    "x": 217,
+                    "y": 42,
                     "uniqueID": 456984,
                     "ioValues": []
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 487,
+                    "y": 131,
+                    "uniqueID": 115556,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Input",
-                    "name": "Input586132",
-                    "x": 137,
-                    "y": 184,
+                    "name": "Side Metal Thickness",
+                    "x": 581,
+                    "y": 231,
                     "uniqueID": 542796,
                     "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 635,
+                    "y": 93,
+                    "uniqueID": 767077,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 854,
+                    "y": 99,
+                    "uniqueID": 793721,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ]
                 },
                 {
                     "atomType": "Output",
@@ -42,7 +89,37 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 456984,
+                    "ap2ID": 767077
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 115556,
+                    "ap2ID": 767077
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 542796,
+                    "ap2ID": 793721
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 767077,
+                    "ap2ID": 793721
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 793721
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -166,11 +243,11 @@
                     "ioValues": [
                         {
                             "name": "Center Thickness",
-                            "ioValue": 10
+                            "ioValue": 20
                         },
                         {
-                            "name": "Input586132",
-                            "ioValue": 10
+                            "name": "Side Metal Thickness",
+                            "ioValue": 2
                         }
                     ]
                 },
