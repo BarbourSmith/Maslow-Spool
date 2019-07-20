@@ -3,12 +3,37 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 312,
+            "x": 318,
             "y": 80,
             "uniqueID": 597255,
-            "ioValues": [],
+            "ioValues": [
+                {
+                    "name": "Center Thickness",
+                    "ioValue": 10
+                },
+                {
+                    "name": "Input586132",
+                    "ioValue": 10
+                }
+            ],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Center Thickness",
+                    "x": 142,
+                    "y": 105,
+                    "uniqueID": 456984,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Input586132",
+                    "x": 137,
+                    "y": 184,
+                    "uniqueID": 542796,
+                    "ioValues": []
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -24,7 +49,7 @@
             "atomType": "Molecule",
             "name": "Sides",
             "x": 295,
-            "y": 155,
+            "y": 169,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -108,30 +133,52 @@
             "allAtoms": [
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
-                    "x": 109,
-                    "y": 101,
+                    "name": "Center Thickness",
+                    "x": 60,
+                    "y": 74,
+                    "uniqueID": 922896,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Constant",
+                    "name": "Side Metal Thickness",
+                    "x": 70,
+                    "y": 152,
                     "uniqueID": 399895,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 2
                         }
                     ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 312,
+                    "x": 318,
                     "y": 80,
                     "uniqueID": 597255,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "Center Thickness",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "Input586132",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
                     "x": 295,
-                    "y": 155,
+                    "y": 169,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
@@ -170,6 +217,12 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "Side Metal Thickness",
+                    "ap1ID": 399895,
+                    "ap2ID": 663980
+                },
                 {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 707706",
