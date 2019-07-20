@@ -2,12 +2,12 @@
     "molecules": [
         {
             "atomType": "Molecule",
-            "name": "Maslow Spool",
-            "x": 0,
-            "y": 0,
-            "uniqueID": 546883,
+            "name": "Center",
+            "x": 312,
+            "y": 80,
+            "uniqueID": 597255,
             "ioValues": [],
-            "topLevel": true,
+            "topLevel": false,
             "allAtoms": [
                 {
                     "atomType": "Output",
@@ -18,6 +18,114 @@
                 }
             ],
             "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Sides",
+            "x": 295,
+            "y": 155,
+            "uniqueID": 663980,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 262,
+                    "y": 140,
+                    "uniqueID": 775160,
+                    "ioValues": [
+                        {
+                            "name": "radius",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
+            "name": "Maslow Spool",
+            "x": 0,
+            "y": 0,
+            "uniqueID": 546883,
+            "ioValues": [],
+            "topLevel": true,
+            "allAtoms": [
+                {
+                    "atomType": "Molecule",
+                    "name": "Center",
+                    "x": 312,
+                    "y": 80,
+                    "uniqueID": 597255,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Sides",
+                    "x": 295,
+                    "y": 155,
+                    "uniqueID": 663980,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 605,
+                    "y": 113,
+                    "uniqueID": 822437,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 707706",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 132321",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 256678",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 707706",
+                    "ap1ID": 597255,
+                    "ap2ID": 822437
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 132321",
+                    "ap1ID": 663980,
+                    "ap2ID": 822437
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 822437
+                }
+            ],
             "fileTypeVersion": 1
         }
     ],
