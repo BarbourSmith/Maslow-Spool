@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 288,
-            "y": 162,
+            "x": 284,
+            "y": 159,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -29,13 +29,13 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 221,
-                    "y": 173,
+                    "x": 213,
+                    "y": 174,
                     "uniqueID": 775160,
                     "ioValues": [
                         {
                             "name": "radius",
-                            "ioValue": 35
+                            "ioValue": 20
                         }
                     ]
                 },
@@ -315,8 +315,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 288,
-                    "y": 162,
+                    "x": 284,
+                    "y": 159,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
