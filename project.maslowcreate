@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 279,
-            "y": 151,
+            "x": 278,
+            "y": 152,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -29,8 +29,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 213,
-                    "y": 174,
+                    "x": 150,
+                    "y": 171,
                     "uniqueID": 775160,
                     "ioValues": [
                         {
@@ -40,11 +40,45 @@
                     ]
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Center Thickness",
-                    "x": 334,
-                    "y": 246,
-                    "uniqueID": 359642,
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 185,
+                    "y": 272,
+                    "uniqueID": 353685,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 6
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 318,
+                    "y": 219,
+                    "uniqueID": 474764,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 476,
+                    "y": 166,
+                    "uniqueID": 578640,
                     "ioValues": []
                 },
                 {
@@ -61,10 +95,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Center Thickness",
+                    "x": 581,
+                    "y": 250,
+                    "uniqueID": 359642,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 692,
-                    "y": 166,
+                    "x": 803,
+                    "y": 190,
                     "uniqueID": 249611,
                     "ioValues": [
                         {
@@ -124,10 +166,22 @@
                     "ap2ID": 907488
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 359642,
-                    "ap2ID": 249611
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 775160,
+                    "ap2ID": 578640
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 353685,
+                    "ap2ID": 474764
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 474764,
+                    "ap2ID": 578640
                 },
                 {
                     "ap1Name": "geometry",
@@ -140,6 +194,12 @@
                     "ap2Name": "3D shape 920575",
                     "ap1ID": 907488,
                     "ap2ID": 637707
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 359642,
+                    "ap2ID": 249611
                 },
                 {
                     "ap1Name": "geometry",
@@ -315,8 +375,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 279,
-                    "y": 151,
+                    "x": 278,
+                    "y": 152,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
