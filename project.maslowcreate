@@ -302,6 +302,14 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Center Thickness",
+                    "x": 470,
+                    "y": 293,
+                    "uniqueID": 359642,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
                     "x": 568,
@@ -323,10 +331,28 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 683,
+                    "y": 287,
+                    "uniqueID": 751354,
+                    "ioValues": [
+                        {
+                            "name": "x",
+                            "ioValue": 2
+                        },
+                        {
+                            "name": "y",
+                            "ioValue": 23
+                        }
+                    ],
+                    "currentEquation": "x + y"
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 749,
-                    "y": 123,
+                    "x": 842,
+                    "y": 70,
                     "uniqueID": 255555,
                     "ioValues": [
                         {
@@ -342,14 +368,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Center Thickness",
-                    "x": 885,
-                    "y": 39,
-                    "uniqueID": 359642,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
@@ -389,7 +407,7 @@
                         },
                         {
                             "name": "zDist",
-                            "ioValue": 23
+                            "ioValue": 0
                         }
                     ]
                 },
@@ -430,6 +448,12 @@
                     "ap2ID": 907488
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "x",
+                    "ap1ID": 334647,
+                    "ap2ID": 751354
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry1",
                     "ap1ID": 775160,
@@ -466,6 +490,12 @@
                     "ap2ID": 907488
                 },
                 {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "y",
+                    "ap1ID": 359642,
+                    "ap2ID": 751354
+                },
+                {
                     "ap1Name": "Geometry",
                     "ap2Name": "3D shape 601707",
                     "ap1ID": 656758,
@@ -477,6 +507,7 @@
                     "ap1ID": 907488,
                     "ap2ID": 255555
                 },
+                null,
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 623701",
@@ -488,12 +519,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 255555,
                     "ap2ID": 156581
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 359642,
-                    "ap2ID": 249611
                 },
                 {
                     "ap1Name": "geometry",
