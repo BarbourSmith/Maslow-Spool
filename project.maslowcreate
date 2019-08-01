@@ -344,6 +344,14 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Center Thickness",
+                    "x": 885,
+                    "y": 39,
+                    "uniqueID": 359642,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 871,
@@ -356,21 +364,13 @@
                         },
                         {
                             "name": "y-axis degrees",
-                            "ioValue": 0
+                            "ioValue": 180
                         },
                         {
                             "name": "z-axis degrees",
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Center Thickness",
-                    "x": 1057,
-                    "y": 252,
-                    "uniqueID": 359642,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -473,12 +473,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 907488,
-                    "ap2ID": 249611
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 972407",
                     "ap1ID": 907488,
                     "ap2ID": 255555
@@ -499,6 +493,12 @@
                     "ap1Name": "number or geometry",
                     "ap2Name": "zDist",
                     "ap1ID": 359642,
+                    "ap2ID": 249611
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 156581,
                     "ap2ID": 249611
                 },
                 {
