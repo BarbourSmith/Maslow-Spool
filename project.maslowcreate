@@ -158,8 +158,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Bolts",
-            "x": 565,
-            "y": 222,
+            "x": 566,
+            "y": 223,
             "uniqueID": 656758,
             "ioValues": [],
             "topLevel": false,
@@ -167,8 +167,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M4 Bolt",
-                    "x": 219,
-                    "y": 126,
+                    "x": 80,
+                    "y": 142,
                     "uniqueID": 500439,
                     "projectID": "197564175",
                     "ioValues": []
@@ -176,13 +176,34 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 416,
-                    "y": 84,
+                    "x": 290,
+                    "y": 89,
                     "uniqueID": 480710,
                     "ioValues": [
                         {
                             "name": "xDist",
                             "ioValue": 7
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 389,
+                    "y": 164,
+                    "uniqueID": 594772,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
                         },
                         {
                             "name": "yDist",
@@ -432,8 +453,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 565,
-                    "y": 222,
+                    "x": 566,
+                    "y": 223,
                     "uniqueID": 656758,
                     "ioValues": []
                 },
@@ -463,6 +484,10 @@
                         },
                         {
                             "name": "3D shape 601707",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 824857",
                             "ioValue": 10
                         }
                     ]
@@ -567,6 +592,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 578640,
                     "ap2ID": 907488
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "3D shape 601707",
+                    "ap1ID": 656758,
+                    "ap2ID": 255555
                 },
                 {
                     "ap1Name": "geometry",
