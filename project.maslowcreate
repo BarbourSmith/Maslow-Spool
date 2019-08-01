@@ -3,7 +3,7 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 310,
+            "x": 307,
             "y": 69,
             "uniqueID": 597255,
             "ioValues": [
@@ -29,8 +29,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 487,
-                    "y": 131,
+                    "x": 176,
+                    "y": 150,
                     "uniqueID": 115556,
                     "ioValues": [
                         {
@@ -38,6 +38,27 @@
                             "ioValue": 20
                         }
                     ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 188,
+                    "y": 235,
+                    "uniqueID": 333407,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 340,
+                    "y": 175,
+                    "uniqueID": 868462,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Input",
@@ -98,9 +119,15 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
+                    "ap2Name": "geometry1",
                     "ap1ID": 115556,
-                    "ap2ID": 767077
+                    "ap2ID": 868462
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 333407,
+                    "ap2ID": 868462
                 },
                 {
                     "ap1Name": "number or geometry",
@@ -200,7 +227,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 15
+                            "ioValue": 13
                         },
                         {
                             "name": "zDist",
@@ -421,7 +448,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 310,
+                    "x": 307,
                     "y": 69,
                     "uniqueID": 597255,
                     "ioValues": [
