@@ -130,6 +130,12 @@
                     "ap2ID": 868462
                 },
                 {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 868462,
+                    "ap2ID": 767077
+                },
+                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "zDist",
                     "ap1ID": 542796,
@@ -151,9 +157,29 @@
         },
         {
             "atomType": "Molecule",
+            "name": "Molecule",
+            "x": 566,
+            "y": 222,
+            "uniqueID": 656758,
+            "ioValues": [],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Sides",
-            "x": 281,
-            "y": 155,
+            "x": 275,
+            "y": 158,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -178,8 +204,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 150,
-                    "y": 171,
+                    "x": 92,
+                    "y": 125,
                     "uniqueID": 775160,
                     "ioValues": [
                         {
@@ -191,8 +217,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 122,
-                    "y": 242,
+                    "x": 79,
+                    "y": 190,
                     "uniqueID": 353685,
                     "ioValues": [
                         {
@@ -202,23 +228,10 @@
                     ]
                 },
                 {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 179,
-                    "y": 300,
-                    "uniqueID": 327435,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 279,
-                    "y": 213,
+                    "x": 229,
+                    "y": 172,
                     "uniqueID": 474764,
                     "ioValues": [
                         {
@@ -236,10 +249,23 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 97,
+                    "y": 270,
+                    "uniqueID": 327435,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 445,
-                    "y": 243,
+                    "x": 280,
+                    "y": 232,
                     "uniqueID": 916675,
                     "ioValues": [
                         {
@@ -265,11 +291,11 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Input",
-                    "name": "Center Thickness",
-                    "x": 581,
-                    "y": 250,
-                    "uniqueID": 359642,
+                    "atomType": "Molecule",
+                    "name": "Molecule",
+                    "x": 566,
+                    "y": 222,
+                    "uniqueID": 656758,
                     "ioValues": []
                 },
                 {
@@ -286,10 +312,18 @@
                     ]
                 },
                 {
+                    "atomType": "Input",
+                    "name": "Center Thickness",
+                    "x": 1057,
+                    "y": 252,
+                    "uniqueID": 359642,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 803,
-                    "y": 190,
+                    "x": 1169,
+                    "y": 204,
                     "uniqueID": 249611,
                     "ioValues": [
                         {
@@ -309,8 +343,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1049,
-                    "y": 118,
+                    "x": 1226,
+                    "y": 87,
                     "uniqueID": 637707,
                     "ioValues": [
                         {
@@ -356,14 +390,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 642951",
-                    "ap1ID": 327435,
+                    "ap2Name": "3D shape 709451",
+                    "ap1ID": 474764,
                     "ap2ID": 916675
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 709451",
-                    "ap1ID": 474764,
+                    "ap2Name": "3D shape 642951",
+                    "ap1ID": 327435,
                     "ap2ID": 916675
                 },
                 {
@@ -379,12 +413,6 @@
                     "ap2ID": 907488
                 },
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 359642,
-                    "ap2ID": 249611
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 907488,
@@ -395,6 +423,12 @@
                     "ap2Name": "3D shape 920575",
                     "ap1ID": 907488,
                     "ap2ID": 637707
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 359642,
+                    "ap2ID": 249611
                 },
                 {
                     "ap1Name": "geometry",
@@ -465,8 +499,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 281,
-                    "y": 155,
+                    "x": 275,
+                    "y": 158,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
