@@ -125,8 +125,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 279,
-            "y": 153,
+            "x": 281,
+            "y": 155,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -164,8 +164,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 185,
-                    "y": 272,
+                    "x": 122,
+                    "y": 242,
                     "uniqueID": 353685,
                     "ioValues": [
                         {
@@ -175,10 +175,23 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 179,
+                    "y": 300,
+                    "uniqueID": 327435,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 318,
-                    "y": 219,
+                    "x": 279,
+                    "y": 213,
                     "uniqueID": 474764,
                     "ioValues": [
                         {
@@ -196,10 +209,31 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 445,
+                    "y": 243,
+                    "uniqueID": 916675,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 642951",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 709451",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 790794",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 476,
-                    "y": 166,
+                    "x": 527,
+                    "y": 135,
                     "uniqueID": 578640,
                     "ioValues": []
                 },
@@ -295,8 +329,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
+                    "ap2Name": "3D shape 642951",
+                    "ap1ID": 327435,
+                    "ap2ID": 916675
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 709451",
                     "ap1ID": 474764,
+                    "ap2ID": 916675
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 916675,
                     "ap2ID": 578640
                 },
                 {
@@ -392,8 +438,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 279,
-                    "y": 153,
+                    "x": 281,
+                    "y": 155,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
