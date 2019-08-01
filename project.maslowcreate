@@ -2,9 +2,164 @@
     "molecules": [
         {
             "atomType": "Molecule",
+            "name": "Center",
+            "x": 307,
+            "y": 69,
+            "uniqueID": 597255,
+            "ioValues": [
+                {
+                    "name": "Center Thickness",
+                    "ioValue": 23
+                },
+                {
+                    "name": "Side Metal Thickness",
+                    "ioValue": 2
+                }
+            ],
+            "topLevel": false,
+            "allAtoms": [
+                {
+                    "atomType": "Input",
+                    "name": "Center Thickness",
+                    "x": 217,
+                    "y": 42,
+                    "uniqueID": 456984,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 176,
+                    "y": 150,
+                    "uniqueID": 115556,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 20
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 188,
+                    "y": 235,
+                    "uniqueID": 333407,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Difference",
+                    "name": "Difference",
+                    "x": 340,
+                    "y": 175,
+                    "uniqueID": 868462,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Side Metal Thickness",
+                    "x": 581,
+                    "y": 231,
+                    "uniqueID": 542796,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 635,
+                    "y": 93,
+                    "uniqueID": 767077,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 23
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 854,
+                    "y": 99,
+                    "uniqueID": 793721,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1316,
+                    "y": 164,
+                    "ioValues": []
+                }
+            ],
+            "allConnectors": [
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "height",
+                    "ap1ID": 456984,
+                    "ap2ID": 767077
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry1",
+                    "ap1ID": 115556,
+                    "ap2ID": 868462
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 333407,
+                    "ap2ID": 868462
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 868462,
+                    "ap2ID": 767077
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "zDist",
+                    "ap1ID": 542796,
+                    "ap2ID": 793721
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 767077,
+                    "ap2ID": 793721
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 793721
+                }
+            ],
+            "fileTypeVersion": 1
+        },
+        {
+            "atomType": "Molecule",
             "name": "Mounting Bolts",
-            "x": 568,
-            "y": 215,
+            "x": 573,
+            "y": 219,
             "uniqueID": 656758,
             "ioValues": [],
             "topLevel": false,
@@ -48,7 +203,7 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 7
+                            "ioValue": 8
                         },
                         {
                             "name": "yDist",
@@ -189,8 +344,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 273,
-            "y": 155,
+            "x": 268,
+            "y": 165,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -312,8 +467,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 568,
-                    "y": 215,
+                    "x": 573,
+                    "y": 219,
                     "uniqueID": 656758,
                     "ioValues": []
                 },
@@ -547,161 +702,6 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Center",
-            "x": 307,
-            "y": 69,
-            "uniqueID": 597255,
-            "ioValues": [
-                {
-                    "name": "Center Thickness",
-                    "ioValue": 23
-                },
-                {
-                    "name": "Side Metal Thickness",
-                    "ioValue": 2
-                }
-            ],
-            "topLevel": false,
-            "allAtoms": [
-                {
-                    "atomType": "Input",
-                    "name": "Center Thickness",
-                    "x": 217,
-                    "y": 42,
-                    "uniqueID": 456984,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 176,
-                    "y": 150,
-                    "uniqueID": 115556,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 20
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 188,
-                    "y": 235,
-                    "uniqueID": 333407,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Difference",
-                    "name": "Difference",
-                    "x": 340,
-                    "y": 175,
-                    "uniqueID": 868462,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Side Metal Thickness",
-                    "x": 581,
-                    "y": 231,
-                    "uniqueID": 542796,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 635,
-                    "y": 93,
-                    "uniqueID": 767077,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 23
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 854,
-                    "y": 99,
-                    "uniqueID": 793721,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
-                }
-            ],
-            "allConnectors": [
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "height",
-                    "ap1ID": 456984,
-                    "ap2ID": 767077
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry1",
-                    "ap1ID": 115556,
-                    "ap2ID": 868462
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 333407,
-                    "ap2ID": 868462
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 868462,
-                    "ap2ID": 767077
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "zDist",
-                    "ap1ID": 542796,
-                    "ap2ID": 793721
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 767077,
-                    "ap2ID": 793721
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 793721
-                }
-            ],
-            "fileTypeVersion": 1
-        },
-        {
-            "atomType": "Molecule",
             "name": "Maslow Spool",
             "x": 0,
             "y": 0,
@@ -737,23 +737,6 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Sides",
-                    "x": 273,
-                    "y": 155,
-                    "uniqueID": 663980,
-                    "ioValues": [
-                        {
-                            "name": "Side Metal Thickness",
-                            "ioValue": 2
-                        },
-                        {
-                            "name": "Center Thickness",
-                            "ioValue": 23
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Molecule",
                     "name": "Center",
                     "x": 307,
                     "y": 69,
@@ -766,6 +749,23 @@
                         {
                             "name": "Side Metal Thickness",
                             "ioValue": 2
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Molecule",
+                    "name": "Sides",
+                    "x": 268,
+                    "y": 165,
+                    "uniqueID": 663980,
+                    "ioValues": [
+                        {
+                            "name": "Side Metal Thickness",
+                            "ioValue": 2
+                        },
+                        {
+                            "name": "Center Thickness",
+                            "ioValue": 23
                         }
                     ]
                 },
@@ -825,14 +825,14 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 132321",
-                    "ap1ID": 663980,
+                    "ap2Name": "3D shape 707706",
+                    "ap1ID": 597255,
                     "ap2ID": 822437
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 707706",
-                    "ap1ID": 597255,
+                    "ap2Name": "3D shape 132321",
+                    "ap1ID": 663980,
                     "ap2ID": 822437
                 },
                 {
