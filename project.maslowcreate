@@ -157,13 +157,102 @@
         },
         {
             "atomType": "Molecule",
-            "name": "Molecule",
-            "x": 566,
+            "name": "Mounting Bolts",
+            "x": 565,
             "y": 222,
             "uniqueID": 656758,
             "ioValues": [],
             "topLevel": false,
             "allAtoms": [
+                {
+                    "atomType": "GitHubMolecule",
+                    "name": "M4 Bolt",
+                    "x": 219,
+                    "y": 126,
+                    "uniqueID": 500439,
+                    "projectID": "197564175",
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 416,
+                    "y": 84,
+                    "uniqueID": 480710,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 5
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 594,
+                    "y": 49,
+                    "uniqueID": 660730,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -120
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 601,
+                    "y": 162,
+                    "uniqueID": 625320,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 120
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 814,
+                    "y": 101,
+                    "uniqueID": 866828,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 877401",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 340986",
+                            "ioValue": 10
+                        }
+                    ]
+                },
                 {
                     "atomType": "Output",
                     "name": "Output",
@@ -172,7 +261,33 @@
                     "ioValues": []
                 }
             ],
-            "allConnectors": [],
+            "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 500439,
+                    "ap2ID": 480710
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 480710,
+                    "ap2ID": 660730
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 480710,
+                    "ap2ID": 625320
+                },
+                null,
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 877401",
+                    "ap1ID": 625320,
+                    "ap2ID": 866828
+                }
+            ],
             "fileTypeVersion": 1
         },
         {
@@ -292,8 +407,8 @@
                 },
                 {
                     "atomType": "Molecule",
-                    "name": "Molecule",
-                    "x": 566,
+                    "name": "Mounting Bolts",
+                    "x": 565,
                     "y": 222,
                     "uniqueID": 656758,
                     "ioValues": []
