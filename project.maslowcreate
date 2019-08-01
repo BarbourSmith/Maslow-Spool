@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Bolts",
-            "x": 567,
-            "y": 221,
+            "x": 568,
+            "y": 215,
             "uniqueID": 656758,
             "ioValues": [],
             "topLevel": false,
@@ -19,36 +19,36 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 290,
-                    "y": 89,
-                    "uniqueID": 480710,
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 303,
+                    "y": 206,
+                    "uniqueID": 839812,
                     "ioValues": [
                         {
-                            "name": "xDist",
-                            "ioValue": 7
-                        },
-                        {
-                            "name": "yDist",
+                            "name": "x-axis degrees",
                             "ioValue": 0
                         },
                         {
-                            "name": "zDist",
-                            "ioValue": 0.1
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
                         }
                     ]
                 },
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 353,
-                    "y": 233,
-                    "uniqueID": 594772,
+                    "x": 482,
+                    "y": 92,
+                    "uniqueID": 480710,
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 0
+                            "ioValue": 7
                         },
                         {
                             "name": "yDist",
@@ -141,6 +141,12 @@
                     "ap2Name": "geometry",
                     "ap1ID": 500439,
                     "ap2ID": 480710
+                },
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 500439,
+                    "ap2ID": 839812
                 },
                 {
                     "ap1Name": "geometry",
@@ -298,8 +304,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 567,
-                    "y": 221,
+                    "x": 568,
+                    "y": 215,
                     "uniqueID": 656758,
                     "ioValues": []
                 },
