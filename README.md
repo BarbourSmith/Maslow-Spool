@@ -7,9 +7,6 @@
 ## Maslow Spool
 
 
-## Center
-
-
 ## Sides
 
 
@@ -26,5 +23,8 @@
 
 
 undefined
+
+
+## Center
 
 
