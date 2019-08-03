@@ -737,8 +737,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 166,
-                    "y": 223,
+                    "x": 154,
+                    "y": 190,
                     "uniqueID": 977776,
                     "ioValues": [
                         {
@@ -749,14 +749,14 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Constant",
+                    "name": "Cable Thickness",
                     "x": 108,
                     "y": 285,
                     "uniqueID": 893005,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 10
+                            "ioValue": 5
                         }
                     ]
                 },
@@ -794,8 +794,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Center Diameter",
-                    "x": 368,
-                    "y": 272,
+                    "x": 246,
+                    "y": 300,
                     "uniqueID": 247167,
                     "ioValues": [
                         {
@@ -826,6 +826,24 @@
                     ]
                 },
                 {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 525,
+                    "y": 275,
+                    "uniqueID": 217115,
+                    "ioValues": [
+                        {
+                            "name": "D",
+                            "ioValue": 25
+                        },
+                        {
+                            "name": "T",
+                            "ioValue": 5
+                        }
+                    ],
+                    "currentEquation": "D/-2 - T"
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 821,
@@ -838,7 +856,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -20
+                            "ioValue": -17.5
                         },
                         {
                             "name": "zDist",
@@ -874,6 +892,18 @@
                     "ap2ID": 533254
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "diameter",
+                    "ap1ID": 893005,
+                    "ap2ID": 977776
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "T",
+                    "ap1ID": 893005,
+                    "ap2ID": 217115
+                },
+                {
                     "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap1ID": 406397,
@@ -886,9 +916,21 @@
                     "ap2ID": 192607
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "D",
+                    "ap1ID": 247167,
+                    "ap2ID": 217115
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 192607,
+                    "ap2ID": 533697
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "yDist",
+                    "ap1ID": 217115,
                     "ap2ID": 533697
                 },
                 {
