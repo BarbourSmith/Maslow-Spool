@@ -3,5 +3,5 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |M4 Bolt|6|$0.54|https://www.mcmaster.com/92095a190|
-|Cable|11|$0.00|https://samsonrope.com/mooring/amsteel--blue|
-|Total: |17|$0.54| |
+|Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
+|Total: |17|$1.21| |

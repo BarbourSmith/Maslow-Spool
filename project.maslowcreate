@@ -735,10 +735,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Cable Thickness",
+                    "x": 101,
+                    "y": 205,
+                    "uniqueID": 893005,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 5
+                        }
+                    ]
+                },
+                {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 154,
-                    "y": 190,
+                    "x": 238,
+                    "y": 148,
                     "uniqueID": 977776,
                     "ioValues": [
                         {
@@ -749,14 +762,14 @@
                 },
                 {
                     "atomType": "Constant",
-                    "name": "Cable Thickness",
-                    "x": 108,
-                    "y": 285,
-                    "uniqueID": 893005,
+                    "name": "Center Diameter",
+                    "x": 190,
+                    "y": 264,
+                    "uniqueID": 247167,
                     "ioValues": [
                         {
                             "name": "number",
-                            "ioValue": 5
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -781,26 +794,13 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 312,
-                    "y": 178,
+                    "x": 385,
+                    "y": 135,
                     "uniqueID": 533254,
                     "ioValues": [
                         {
                             "name": "height",
                             "ioValue": 100
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Center Diameter",
-                    "x": 246,
-                    "y": 300,
-                    "uniqueID": 247167,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 25
                         }
                     ]
                 },
@@ -828,8 +828,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 525,
-                    "y": 275,
+                    "x": 474,
+                    "y": 235,
                     "uniqueID": 217115,
                     "ioValues": [
                         {
@@ -881,10 +881,10 @@
                     "uniqueID": 703725,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "Cable",
+                        "BOMitemName": "Amsteel Blue 3/16",
                         "numberNeeded": 11,
-                        "costUSD": 0,
-                        "source": "https://samsonrope.com/mooring/amsteel--blue",
+                        "costUSD": 0.67,
+                        "source": "http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/",
                         "totalNeeded": 0
                     }
                 },
@@ -910,12 +910,6 @@
                     "ap2ID": 406397
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 977776,
-                    "ap2ID": 533254
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
                     "ap1ID": 893005,
@@ -925,6 +919,18 @@
                     "ap1Name": "number",
                     "ap2Name": "T",
                     "ap1ID": 893005,
+                    "ap2ID": 217115
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 977776,
+                    "ap2ID": 533254
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "D",
+                    "ap1ID": 247167,
                     "ap2ID": 217115
                 },
                 {
@@ -938,12 +944,6 @@
                     "ap2Name": "geometry",
                     "ap1ID": 533254,
                     "ap2ID": 192607
-                },
-                {
-                    "ap1Name": "number",
-                    "ap2Name": "D",
-                    "ap1ID": 247167,
-                    "ap2ID": 217115
                 },
                 {
                     "ap1Name": "geometry",
