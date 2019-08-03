@@ -3,4 +3,5 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |M4 Bolt|6|$0.54|https://www.mcmaster.com/92095a190|
+|name|0|$0.00|www.example.com|
 |Total: |6|$0.54| |

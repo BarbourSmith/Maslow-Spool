@@ -704,7 +704,7 @@
             "atomType": "Molecule",
             "name": "Cable",
             "x": 274,
-            "y": 234,
+            "y": 240,
             "uniqueID": 866650,
             "ioValues": [
                 {
@@ -846,8 +846,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 821,
-                    "y": 132,
+                    "x": 787,
+                    "y": 98,
                     "uniqueID": 533697,
                     "ioValues": [
                         {
@@ -863,6 +863,30 @@
                             "ioValue": 13.5
                         }
                     ]
+                },
+                {
+                    "atomType": "Color",
+                    "name": "Color",
+                    "x": 966,
+                    "y": 89,
+                    "uniqueID": 830079,
+                    "ioValues": [],
+                    "selectedColorIndex": 0
+                },
+                {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1127,
+                    "y": 102,
+                    "uniqueID": 703725,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "name",
+                        "numberNeeded": 0,
+                        "costUSD": 0,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
                 },
                 {
                     "atomType": "Output",
@@ -935,8 +959,20 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 533697,
+                    "ap2ID": 830079
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 830079,
+                    "ap2ID": 703725
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 533697
+                    "ap1ID": 703725
                 }
             ],
             "fileTypeVersion": 1
@@ -1014,7 +1050,7 @@
                     "atomType": "Molecule",
                     "name": "Cable",
                     "x": 274,
-                    "y": 234,
+                    "y": 240,
                     "uniqueID": 866650,
                     "ioValues": [
                         {
