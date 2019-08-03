@@ -881,10 +881,10 @@
                     "uniqueID": 703725,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "name",
-                        "numberNeeded": 0,
+                        "BOMitemName": "Cable",
+                        "numberNeeded": 11,
                         "costUSD": 0,
-                        "source": "www.example.com",
+                        "source": "https://samsonrope.com/mooring/amsteel--blue",
                         "totalNeeded": 0
                     }
                 },
