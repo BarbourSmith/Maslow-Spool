@@ -841,7 +841,7 @@
                             "ioValue": 5
                         }
                     ],
-                    "currentEquation": "D/-2 - T"
+                    "currentEquation": "D/-2 + T/-2"
                 },
                 {
                     "atomType": "Translate",
@@ -856,7 +856,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -17.5
+                            "ioValue": -15
                         },
                         {
                             "name": "zDist",
