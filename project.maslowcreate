@@ -703,8 +703,8 @@
         {
             "atomType": "Molecule",
             "name": "Cable",
-            "x": 275,
-            "y": 238,
+            "x": 274,
+            "y": 234,
             "uniqueID": 866650,
             "ioValues": [
                 {
@@ -748,6 +748,19 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Constant",
+                    "x": 108,
+                    "y": 285,
+                    "uniqueID": 893005,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 321,
@@ -779,10 +792,23 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Center Diameter",
+                    "x": 368,
+                    "y": 272,
+                    "uniqueID": 247167,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 543,
-                    "y": 114,
+                    "x": 497,
+                    "y": 172,
                     "uniqueID": 192607,
                     "ioValues": [
                         {
@@ -812,7 +838,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 0
+                            "ioValue": -20
                         },
                         {
                             "name": "zDist",
@@ -945,8 +971,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cable",
-                    "x": 275,
-                    "y": 238,
+                    "x": 274,
+                    "y": 234,
                     "uniqueID": 866650,
                     "ioValues": [
                         {
