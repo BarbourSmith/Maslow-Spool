@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 263,
-            "y": 75,
+            "x": 268,
+            "y": 78,
             "uniqueID": 597255,
             "ioValues": [
                 {
@@ -105,7 +105,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -285,7 +285,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
@@ -546,6 +546,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 1171,
@@ -586,13 +593,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -874,6 +874,13 @@
                     "selectedColorIndex": 0
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
                     "x": 1127,
@@ -887,13 +894,6 @@
                         "source": "http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/",
                         "totalNeeded": 0
                     }
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1316,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1015,8 +1015,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 263,
-                    "y": 75,
+                    "x": 268,
+                    "y": 78,
                     "uniqueID": 597255,
                     "ioValues": [
                         {
@@ -1091,7 +1091,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1316,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
