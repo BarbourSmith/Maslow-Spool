@@ -548,8 +548,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 909,
-                    "y": 57,
+                    "x": 884,
+                    "y": 74,
                     "uniqueID": 249611,
                     "ioValues": [
                         {
@@ -569,8 +569,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 909,
-                    "y": 57,
+                    "x": 884,
+                    "y": 74,
                     "uniqueID": 156581,
                     "ioValues": [
                         {
@@ -690,12 +690,6 @@
                     "ap2Name": "3D shape 273143",
                     "ap1ID": 249611,
                     "ap2ID": 637707
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 156581,
-                    "ap2ID": 249611
                 }
             ],
             "fileTypeVersion": 1
