@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 268,
-            "y": 78,
+            "x": 265,
+            "y": 72,
             "uniqueID": 597255,
             "ioValues": [
                 {
@@ -91,7 +91,7 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 854,
+                    "x": 820,
                     "y": 99,
                     "uniqueID": 793721,
                     "ioValues": [
@@ -345,7 +345,7 @@
             "atomType": "Molecule",
             "name": "Sides",
             "x": 268,
-            "y": 165,
+            "y": 162,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -511,51 +511,9 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 834,
-                    "y": 119,
-                    "uniqueID": 255555,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 972407",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 601707",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 824857",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 968,
-                    "y": 72,
-                    "uniqueID": 156581,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 1171,
+                    "x": 820,
                     "y": 60,
                     "uniqueID": 249611,
                     "ioValues": [
@@ -574,9 +532,51 @@
                     ]
                 },
                 {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 820,
+                    "y": 72,
+                    "uniqueID": 156581,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 1197,
+                    "x": 820,
+                    "y": 119,
+                    "uniqueID": 255555,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 972407",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 601707",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 824857",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 820,
                     "y": 223,
                     "uniqueID": 637707,
                     "ioValues": [
@@ -670,6 +670,18 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "3D shape 273143",
+                    "ap1ID": 249611,
+                    "ap2ID": 637707
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 156581,
+                    "ap2ID": 249611
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 623701",
                     "ap1ID": 255555,
                     "ap2ID": 637707
@@ -682,18 +694,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 156581,
-                    "ap2ID": 249611
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 273143",
-                    "ap1ID": 249611,
-                    "ap2ID": 637707
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 637707
                 }
@@ -703,8 +703,8 @@
         {
             "atomType": "Molecule",
             "name": "Cable",
-            "x": 274,
-            "y": 240,
+            "x": 272,
+            "y": 244,
             "uniqueID": 866650,
             "ioValues": [
                 {
@@ -874,7 +874,7 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 966,
+                    "x": 820,
                     "y": 89,
                     "uniqueID": 830079,
                     "ioValues": [],
@@ -883,7 +883,7 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1127,
+                    "x": 820,
                     "y": 102,
                     "uniqueID": 703725,
                     "ioValues": [],
@@ -1015,8 +1015,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 268,
-                    "y": 78,
+                    "x": 265,
+                    "y": 72,
                     "uniqueID": 597255,
                     "ioValues": [
                         {
@@ -1033,7 +1033,7 @@
                     "atomType": "Molecule",
                     "name": "Sides",
                     "x": 268,
-                    "y": 165,
+                    "y": 162,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
@@ -1049,8 +1049,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cable",
-                    "x": 274,
-                    "y": 240,
+                    "x": 272,
+                    "y": 244,
                     "uniqueID": 866650,
                     "ioValues": [
                         {
