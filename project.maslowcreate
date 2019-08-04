@@ -3,7 +3,7 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 265,
+            "x": 264,
             "y": 72,
             "uniqueID": 597255,
             "ioValues": [
@@ -105,7 +105,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -285,7 +285,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -344,8 +344,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 267.6610541727672,
-            "y": 164.71449487554904,
+            "x": 272,
+            "y": 173,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -375,8 +375,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 91,
-                    "y": 231,
+                    "x": 77,
+                    "y": 175,
                     "uniqueID": 353685,
                     "ioValues": [
                         {
@@ -422,9 +422,17 @@
                 {
                     "atomType": "Input",
                     "name": "Center Thickness",
-                    "x": 349,
-                    "y": 27,
+                    "x": 329,
+                    "y": 30,
                     "uniqueID": 359642,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Side Metal Thickness",
+                    "x": 331,
+                    "y": 83,
+                    "uniqueID": 334647,
                     "ioValues": []
                 },
                 {
@@ -447,14 +455,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Side Metal Thickness",
-                    "x": 367,
-                    "y": 79,
-                    "uniqueID": 334647,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Difference",
@@ -525,27 +525,6 @@
                     "currentEquation": "x + y"
                 },
                 {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 820,
-                    "y": 223,
-                    "uniqueID": 637707,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 623701",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 362331",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 269136",
-                            "ioValue": 10
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 862.2803806734992,
@@ -563,6 +542,27 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 954,
+                    "y": 221,
+                    "uniqueID": 637707,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 623701",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 362331",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 269136",
+                            "ioValue": 10
                         }
                     ]
                 },
@@ -590,7 +590,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -627,12 +627,6 @@
                     "ap2ID": 751354
                 },
                 {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry2",
-                    "ap1ID": 916675,
-                    "ap2ID": 578640
-                },
-                {
                     "ap1Name": "number or geometry",
                     "ap2Name": "height",
                     "ap1ID": 334647,
@@ -643,6 +637,12 @@
                     "ap2Name": "x",
                     "ap1ID": 334647,
                     "ap2ID": 751354
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry2",
+                    "ap1ID": 916675,
+                    "ap2ID": 578640
                 },
                 {
                     "ap1Name": "geometry",
@@ -682,14 +682,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 637707
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 156581,
                     "ap2ID": 256333
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 637707
                 },
                 {
                     "ap1Name": "geometry",
@@ -891,7 +891,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
@@ -1015,7 +1015,7 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 265,
+                    "x": 264,
                     "y": 72,
                     "uniqueID": 597255,
                     "ioValues": [
@@ -1032,8 +1032,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 267.6610541727672,
-                    "y": 164.71449487554904,
+                    "x": 272,
+                    "y": 173,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
@@ -1091,7 +1091,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 1316,
                     "y": 164,
                     "ioValues": []
                 }
