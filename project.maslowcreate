@@ -344,8 +344,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 265,
-            "y": 158,
+            "x": 267.6610541727672,
+            "y": 164.71449487554904,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -386,6 +386,19 @@
                     ]
                 },
                 {
+                    "atomType": "Circle",
+                    "name": "Circle",
+                    "x": 84,
+                    "y": 250.13177159590043,
+                    "uniqueID": 327435,
+                    "ioValues": [
+                        {
+                            "name": "diameter",
+                            "ioValue": 8
+                        }
+                    ]
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 229,
@@ -403,19 +416,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Circle",
-                    "name": "Circle",
-                    "x": 84,
-                    "y": 292,
-                    "uniqueID": 327435,
-                    "ioValues": [
-                        {
-                            "name": "diameter",
-                            "ioValue": 8
                         }
                     ]
                 },
@@ -532,10 +532,6 @@
                     "uniqueID": 637707,
                     "ioValues": [
                         {
-                            "name": "3D shape 273143",
-                            "ioValue": 10
-                        },
-                        {
                             "name": "3D shape 623701",
                             "ioValue": 10
                         },
@@ -546,31 +542,10 @@
                     ]
                 },
                 {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 884,
-                    "y": 74,
-                    "uniqueID": 249611,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 25
-                        }
-                    ]
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 884,
-                    "y": 74,
+                    "x": 1008.8762811127378,
+                    "y": 79.06295754026354,
                     "uniqueID": 156581,
                     "ioValues": [
                         {
@@ -610,14 +585,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 709451",
-                    "ap1ID": 474764,
+                    "ap2Name": "3D shape 642951",
+                    "ap1ID": 327435,
                     "ap2ID": 916675
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 642951",
-                    "ap1ID": 327435,
+                    "ap2Name": "3D shape 709451",
+                    "ap1ID": 474764,
                     "ap2ID": 916675
                 },
                 {
@@ -670,26 +645,8 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 255555,
-                    "ap2ID": 156581
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap1ID": 751354,
-                    "ap2ID": 249611
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 637707
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 273143",
-                    "ap1ID": 249611,
-                    "ap2ID": 637707
                 }
             ],
             "fileTypeVersion": 1
@@ -1026,8 +983,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 265,
-                    "y": 158,
+                    "x": 267.6610541727672,
+                    "y": 164.71449487554904,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
