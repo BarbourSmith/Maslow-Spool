@@ -82,13 +82,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 790,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 820,
@@ -108,6 +101,13 @@
                             "ioValue": 2
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -258,13 +258,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 790,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 884,
@@ -288,6 +281,13 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -344,8 +344,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 268,
-            "y": 162,
+            "x": 265,
+            "y": 158,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -398,7 +398,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": 13
+                            "ioValue": 15
                         },
                         {
                             "name": "zDist",
@@ -459,8 +459,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 527,
-                    "y": 135,
+                    "x": 487,
+                    "y": 150,
                     "uniqueID": 578640,
                     "ioValues": []
                 },
@@ -486,6 +486,27 @@
                     ]
                 },
                 {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 725,
+                    "y": 153,
+                    "uniqueID": 255555,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 972407",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 601707",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 824857",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
                     "x": 788,
@@ -502,76 +523,6 @@
                         }
                     ],
                     "currentEquation": "x + y"
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 790,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Translate",
-                    "name": "Translate",
-                    "x": 820,
-                    "y": 60,
-                    "uniqueID": 249611,
-                    "ioValues": [
-                        {
-                            "name": "xDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "yDist",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "zDist",
-                            "ioValue": 25
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 820,
-                    "y": 72,
-                    "uniqueID": 156581,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 180
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Assembly",
-                    "name": "Assembly",
-                    "x": 820,
-                    "y": 119,
-                    "uniqueID": 255555,
-                    "ioValues": [
-                        {
-                            "name": "3D shape 972407",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 601707",
-                            "ioValue": 10
-                        },
-                        {
-                            "name": "3D shape 824857",
-                            "ioValue": 10
-                        }
-                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -593,6 +544,55 @@
                             "ioValue": 10
                         }
                     ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 909,
+                    "y": 57,
+                    "uniqueID": 249611,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 909,
+                    "y": 57,
+                    "uniqueID": 156581,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 180
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -663,24 +663,6 @@
                     "ap2ID": 255555
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap1ID": 751354,
-                    "ap2ID": 249611
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "3D shape 273143",
-                    "ap1ID": 249611,
-                    "ap2ID": 637707
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 156581,
-                    "ap2ID": 249611
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 623701",
                     "ap1ID": 255555,
@@ -693,9 +675,27 @@
                     "ap2ID": 156581
                 },
                 {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 751354,
+                    "ap2ID": 249611
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 637707
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 273143",
+                    "ap1ID": 249611,
+                    "ap2ID": 637707
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 156581,
+                    "ap2ID": 249611
                 }
             ],
             "fileTypeVersion": 1
@@ -865,13 +865,6 @@
                     ]
                 },
                 {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 790,
-                    "y": 164,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 820,
@@ -894,6 +887,13 @@
                         "source": "http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/",
                         "totalNeeded": 0
                     }
+                },
+                {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 1075,
+                    "y": 164,
+                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -1032,8 +1032,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 268,
-                    "y": 162,
+                    "x": 265,
+                    "y": 158,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
@@ -1091,7 +1091,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 790,
+                    "x": 1075,
                     "y": 164,
                     "ioValues": []
                 }
