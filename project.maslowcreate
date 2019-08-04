@@ -82,6 +82,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 790,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Translate",
                     "name": "Translate",
                     "x": 854,
@@ -101,13 +108,6 @@
                             "ioValue": 2
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -258,6 +258,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 790,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 884,
@@ -281,13 +288,6 @@
                             "ioValue": 10
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
                 }
             ],
             "allConnectors": [
@@ -504,6 +504,13 @@
                     "currentEquation": "x + y"
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 790,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Assembly",
                     "name": "Assembly",
                     "x": 834,
@@ -544,13 +551,6 @@
                             "ioValue": 0
                         }
                     ]
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Translate",
@@ -865,6 +865,13 @@
                     ]
                 },
                 {
+                    "atomType": "Output",
+                    "name": "Output",
+                    "x": 790,
+                    "y": 164,
+                    "ioValues": []
+                },
+                {
                     "atomType": "Color",
                     "name": "Color",
                     "x": 966,
@@ -872,13 +879,6 @@
                     "uniqueID": 830079,
                     "ioValues": [],
                     "selectedColorIndex": 0
-                },
-                {
-                    "atomType": "Output",
-                    "name": "Output",
-                    "x": 1075,
-                    "y": 164,
-                    "ioValues": []
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -1091,7 +1091,7 @@
                 {
                     "atomType": "Output",
                     "name": "Output",
-                    "x": 1075,
+                    "x": 790,
                     "y": 164,
                     "ioValues": []
                 }
