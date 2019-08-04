@@ -538,14 +538,18 @@
                         {
                             "name": "3D shape 362331",
                             "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 269136",
+                            "ioValue": 10
                         }
                     ]
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 1008.8762811127378,
-                    "y": 79.06295754026354,
+                    "x": 862.2803806734992,
+                    "y": 100.4758418740849,
                     "uniqueID": 156581,
                     "ioValues": [
                         {
@@ -559,6 +563,27 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 1020.4062957540262,
+                    "y": 81.53367496339678,
+                    "uniqueID": 256333,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 25
                         }
                     ]
                 },
@@ -645,8 +670,32 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 255555,
+                    "ap2ID": 156581
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 751354,
+                    "ap2ID": 256333
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
                     "ap1ID": 637707
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 156581,
+                    "ap2ID": 256333
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 362331",
+                    "ap1ID": 256333,
+                    "ap2ID": 637707
                 }
             ],
             "fileTypeVersion": 1
