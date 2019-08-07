@@ -703,8 +703,8 @@
         {
             "atomType": "Molecule",
             "name": "Cable",
-            "x": 272,
-            "y": 244,
+            "x": 265,
+            "y": 243,
             "uniqueID": 866650,
             "ioValues": [
                 {
@@ -753,7 +753,7 @@
                     "ioValues": [
                         {
                             "name": "height",
-                            "ioValue": 150
+                            "ioValue": 151
                         }
                     ]
                 },
@@ -795,28 +795,10 @@
                     ]
                 },
                 {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 647,
-                    "y": 24,
-                    "uniqueID": 406397,
-                    "ioValues": [
-                        {
-                            "name": "T",
-                            "ioValue": 2
-                        },
-                        {
-                            "name": "D",
-                            "ioValue": 23
-                        }
-                    ],
-                    "currentEquation": "T+D/2"
-                },
-                {
                     "atomType": "Constant",
                     "name": "Center Diameter",
-                    "x": 617,
-                    "y": 226,
+                    "x": 561,
+                    "y": 221,
                     "uniqueID": 247167,
                     "ioValues": [
                         {
@@ -847,10 +829,70 @@
                     ]
                 },
                 {
+                    "atomType": "Translate",
+                    "name": "Translate",
+                    "x": 753,
+                    "y": 192,
+                    "uniqueID": 155098,
+                    "ioValues": [
+                        {
+                            "name": "xDist",
+                            "ioValue": 151
+                        },
+                        {
+                            "name": "yDist",
+                            "ioValue": -30
+                        },
+                        {
+                            "name": "zDist",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 709,
-                    "y": 286,
+                    "x": 862,
+                    "y": 30,
+                    "uniqueID": 406397,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 2
+                        },
+                        {
+                            "name": "D",
+                            "ioValue": 23
+                        }
+                    ],
+                    "currentEquation": "T+D/2"
+                },
+                {
+                    "atomType": "Assembly",
+                    "name": "Assembly",
+                    "x": 889,
+                    "y": 169,
+                    "uniqueID": 877332,
+                    "ioValues": [
+                        {
+                            "name": "3D shape 131451",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 484416",
+                            "ioValue": 10
+                        },
+                        {
+                            "name": "3D shape 299120",
+                            "ioValue": 10
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 894,
+                    "y": 267,
                     "uniqueID": 217115,
                     "ioValues": [
                         {
@@ -867,8 +909,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 928,
-                    "y": 116,
+                    "x": 1038,
+                    "y": 149,
                     "uniqueID": 533697,
                     "ioValues": [
                         {
@@ -888,8 +930,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1022,
-                    "y": 63,
+                    "x": 1168,
+                    "y": 148,
                     "uniqueID": 830079,
                     "ioValues": [],
                     "selectedColorIndex": 0
@@ -897,8 +939,8 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 1128,
-                    "y": 186,
+                    "x": 1197,
+                    "y": 67,
                     "uniqueID": 703725,
                     "ioValues": [],
                     "BOMitem": {
@@ -961,10 +1003,10 @@
                     "ap2ID": 677536
                 },
                 {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap1ID": 406397,
-                    "ap2ID": 533697
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 192607,
+                    "ap2ID": 155098
                 },
                 {
                     "ap1Name": "number",
@@ -976,6 +1018,24 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 677536,
+                    "ap2ID": 533697
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 484416",
+                    "ap1ID": 677536,
+                    "ap2ID": 877332
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 131451",
+                    "ap1ID": 155098,
+                    "ap2ID": 877332
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 406397,
                     "ap2ID": 533697
                 },
                 {
@@ -1076,8 +1136,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cable",
-                    "x": 272,
-                    "y": 244,
+                    "x": 265,
+                    "y": 243,
                     "uniqueID": 866650,
                     "ioValues": [
                         {
