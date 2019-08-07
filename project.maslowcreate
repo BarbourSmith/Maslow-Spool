@@ -719,26 +719,10 @@
             "topLevel": false,
             "allAtoms": [
                 {
-                    "atomType": "Input",
-                    "name": "Center Diameter",
-                    "x": 52,
-                    "y": 52,
-                    "uniqueID": 530150,
-                    "ioValues": []
-                },
-                {
-                    "atomType": "Input",
-                    "name": "Side Thickness",
-                    "x": 51,
-                    "y": 134,
-                    "uniqueID": 127301,
-                    "ioValues": []
-                },
-                {
                     "atomType": "Constant",
                     "name": "Cable Thickness",
-                    "x": 122,
-                    "y": 209,
+                    "x": 98,
+                    "y": 282,
                     "uniqueID": 893005,
                     "ioValues": [
                         {
@@ -750,8 +734,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 267,
-                    "y": 165,
+                    "x": 240,
+                    "y": 185,
                     "uniqueID": 977776,
                     "ioValues": [
                         {
@@ -763,8 +747,8 @@
                 {
                     "atomType": "Extrude",
                     "name": "Extrude",
-                    "x": 385,
-                    "y": 135,
+                    "x": 381,
+                    "y": 222,
                     "uniqueID": 533254,
                     "ioValues": [
                         {
@@ -774,23 +758,26 @@
                     ]
                 },
                 {
-                    "atomType": "Constant",
+                    "atomType": "Input",
                     "name": "Center Diameter",
-                    "x": 404,
-                    "y": 251,
-                    "uniqueID": 247167,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 25
-                        }
-                    ]
+                    "x": 449,
+                    "y": 46,
+                    "uniqueID": 530150,
+                    "ioValues": []
+                },
+                {
+                    "atomType": "Input",
+                    "name": "Side Thickness",
+                    "x": 451,
+                    "y": 104,
+                    "uniqueID": 127301,
+                    "ioValues": []
                 },
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 507,
-                    "y": 146,
+                    "x": 524,
+                    "y": 161,
                     "uniqueID": 192607,
                     "ioValues": [
                         {
@@ -826,6 +813,19 @@
                     "currentEquation": "T+D/2"
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Center Diameter",
+                    "x": 617,
+                    "y": 226,
+                    "uniqueID": 247167,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 704,
@@ -842,15 +842,15 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -8
+                            "ioValue": -6
                         }
                     ]
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 691,
-                    "y": 233,
+                    "x": 709,
+                    "y": 286,
                     "uniqueID": 217115,
                     "ioValues": [
                         {
@@ -919,18 +919,6 @@
             ],
             "allConnectors": [
                 {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "D",
-                    "ap1ID": 530150,
-                    "ap2ID": 406397
-                },
-                {
-                    "ap1Name": "number or geometry",
-                    "ap2Name": "T",
-                    "ap1ID": 127301,
-                    "ap2ID": 406397
-                },
-                {
                     "ap1Name": "number",
                     "ap2Name": "diameter",
                     "ap1ID": 893005,
@@ -955,10 +943,16 @@
                     "ap2ID": 192607
                 },
                 {
-                    "ap1Name": "number",
+                    "ap1Name": "number or geometry",
                     "ap2Name": "D",
-                    "ap1ID": 247167,
-                    "ap2ID": 217115
+                    "ap1ID": 530150,
+                    "ap2ID": 406397
+                },
+                {
+                    "ap1Name": "number or geometry",
+                    "ap2Name": "T",
+                    "ap1ID": 127301,
+                    "ap2ID": 406397
                 },
                 {
                     "ap1Name": "geometry",
@@ -971,6 +965,12 @@
                     "ap2Name": "zDist",
                     "ap1ID": 406397,
                     "ap2ID": 533697
+                },
+                {
+                    "ap1Name": "number",
+                    "ap2Name": "D",
+                    "ap1ID": 247167,
+                    "ap2ID": 217115
                 },
                 {
                     "ap1Name": "geometry",
