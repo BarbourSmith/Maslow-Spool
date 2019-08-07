@@ -737,8 +737,8 @@
                 {
                     "atomType": "Constant",
                     "name": "Cable Thickness",
-                    "x": 101,
-                    "y": 205,
+                    "x": 122,
+                    "y": 209,
                     "uniqueID": 893005,
                     "ioValues": [
                         {
@@ -750,8 +750,8 @@
                 {
                     "atomType": "Circle",
                     "name": "Circle",
-                    "x": 238,
-                    "y": 148,
+                    "x": 267,
+                    "y": 165,
                     "uniqueID": 977776,
                     "ioValues": [
                         {
@@ -759,37 +759,6 @@
                             "ioValue": 5
                         }
                     ]
-                },
-                {
-                    "atomType": "Constant",
-                    "name": "Center Diameter",
-                    "x": 190,
-                    "y": 264,
-                    "uniqueID": 247167,
-                    "ioValues": [
-                        {
-                            "name": "number",
-                            "ioValue": 25
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Equation",
-                    "name": "Equation",
-                    "x": 321,
-                    "y": 73,
-                    "uniqueID": 406397,
-                    "ioValues": [
-                        {
-                            "name": "T",
-                            "ioValue": 2
-                        },
-                        {
-                            "name": "D",
-                            "ioValue": 23
-                        }
-                    ],
-                    "currentEquation": "T+D/2"
                 },
                 {
                     "atomType": "Extrude",
@@ -805,10 +774,23 @@
                     ]
                 },
                 {
+                    "atomType": "Constant",
+                    "name": "Center Diameter",
+                    "x": 404,
+                    "y": 251,
+                    "uniqueID": 247167,
+                    "ioValues": [
+                        {
+                            "name": "number",
+                            "ioValue": 25
+                        }
+                    ]
+                },
+                {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 497,
-                    "y": 172,
+                    "x": 507,
+                    "y": 146,
                     "uniqueID": 192607,
                     "ioValues": [
                         {
@@ -828,8 +810,47 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 474,
-                    "y": 235,
+                    "x": 647,
+                    "y": 24,
+                    "uniqueID": 406397,
+                    "ioValues": [
+                        {
+                            "name": "T",
+                            "ioValue": 2
+                        },
+                        {
+                            "name": "D",
+                            "ioValue": 23
+                        }
+                    ],
+                    "currentEquation": "T+D/2"
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 662,
+                    "y": 89,
+                    "uniqueID": 677536,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": 0
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Equation",
+                    "name": "Equation",
+                    "x": 691,
+                    "y": 233,
                     "uniqueID": 217115,
                     "ioValues": [
                         {
@@ -846,8 +867,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 787,
-                    "y": 98,
+                    "x": 928,
+                    "y": 116,
                     "uniqueID": 533697,
                     "ioValues": [
                         {
@@ -928,27 +949,33 @@
                     "ap2ID": 533254
                 },
                 {
-                    "ap1Name": "number",
-                    "ap2Name": "D",
-                    "ap1ID": 247167,
-                    "ap2ID": 217115
-                },
-                {
-                    "ap1Name": "result",
-                    "ap2Name": "zDist",
-                    "ap1ID": 406397,
-                    "ap2ID": 533697
-                },
-                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 533254,
                     "ap2ID": 192607
                 },
                 {
+                    "ap1Name": "number",
+                    "ap2Name": "D",
+                    "ap1ID": 247167,
+                    "ap2ID": 217115
+                },
+                {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 192607,
+                    "ap2ID": 533697
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 192607,
+                    "ap2ID": 677536
+                },
+                {
+                    "ap1Name": "result",
+                    "ap2Name": "zDist",
+                    "ap1ID": 406397,
                     "ap2ID": 533697
                 },
                 {
