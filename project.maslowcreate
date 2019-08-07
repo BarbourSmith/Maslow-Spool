@@ -768,8 +768,8 @@
                 {
                     "atomType": "Input",
                     "name": "Side Thickness",
-                    "x": 451,
-                    "y": 104,
+                    "x": 511,
+                    "y": 83,
                     "uniqueID": 127301,
                     "ioValues": []
                 },
@@ -837,11 +837,11 @@
                     "ioValues": [
                         {
                             "name": "xDist",
-                            "ioValue": 151
+                            "ioValue": 150
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -30
+                            "ioValue": -16
                         },
                         {
                             "name": "zDist",
@@ -852,8 +852,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 862,
-                    "y": 30,
+                    "x": 895,
+                    "y": 35,
                     "uniqueID": 406397,
                     "ioValues": [
                         {
@@ -870,8 +870,8 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 889,
-                    "y": 169,
+                    "x": 890,
+                    "y": 155,
                     "uniqueID": 877332,
                     "ioValues": [
                         {
@@ -891,8 +891,8 @@
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 894,
-                    "y": 267,
+                    "x": 888,
+                    "y": 273,
                     "uniqueID": 217115,
                     "ioValues": [
                         {
@@ -909,8 +909,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 1038,
-                    "y": 149,
+                    "x": 1047,
+                    "y": 109,
                     "uniqueID": 533697,
                     "ioValues": [
                         {
@@ -930,8 +930,8 @@
                 {
                     "atomType": "Color",
                     "name": "Color",
-                    "x": 1168,
-                    "y": 148,
+                    "x": 1100,
+                    "y": 214,
                     "uniqueID": 830079,
                     "ioValues": [],
                     "selectedColorIndex": 0
@@ -1016,12 +1016,6 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 677536,
-                    "ap2ID": 533697
-                },
-                {
-                    "ap1Name": "geometry",
                     "ap2Name": "3D shape 484416",
                     "ap1ID": 677536,
                     "ap2ID": 877332
@@ -1036,6 +1030,12 @@
                     "ap1Name": "result",
                     "ap2Name": "zDist",
                     "ap1ID": 406397,
+                    "ap2ID": 533697
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 877332,
                     "ap2ID": 533697
                 },
                 {

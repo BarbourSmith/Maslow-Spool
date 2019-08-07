@@ -2,7 +2,6 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
-|Total: |11|$0.67| |
+|Total: |0|$0.00| |
 
- 3xCOG MSRP: $2.01
+ 3xCOG MSRP: $0.00
