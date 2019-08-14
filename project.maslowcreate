@@ -167,8 +167,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M4 Bolt",
-                    "x": 80,
-                    "y": 142,
+                    "x": 79,
+                    "y": 139,
                     "uniqueID": 500439,
                     "projectID": "197564175",
                     "ioValues": []
