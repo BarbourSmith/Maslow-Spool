@@ -197,8 +197,8 @@
                 {
                     "atomType": "Translate",
                     "name": "Translate",
-                    "x": 485,
-                    "y": 89,
+                    "x": 476,
+                    "y": 104,
                     "uniqueID": 480710,
                     "ioValues": [
                         {
@@ -212,27 +212,6 @@
                         {
                             "name": "zDist",
                             "ioValue": 0
-                        }
-                    ]
-                },
-                {
-                    "atomType": "Rotate",
-                    "name": "Rotate",
-                    "x": 586,
-                    "y": 52,
-                    "uniqueID": 660730,
-                    "ioValues": [
-                        {
-                            "name": "x-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "y-axis degrees",
-                            "ioValue": 0
-                        },
-                        {
-                            "name": "z-axis degrees",
-                            "ioValue": -120
                         }
                     ]
                 },
@@ -254,6 +233,27 @@
                         {
                             "name": "z-axis degrees",
                             "ioValue": 120
+                        }
+                    ]
+                },
+                {
+                    "atomType": "Rotate",
+                    "name": "Rotate",
+                    "x": 627,
+                    "y": 47,
+                    "uniqueID": 660730,
+                    "ioValues": [
+                        {
+                            "name": "x-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "y-axis degrees",
+                            "ioValue": 0
+                        },
+                        {
+                            "name": "z-axis degrees",
+                            "ioValue": -120
                         }
                     ]
                 },
@@ -323,14 +323,14 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 848777",
-                    "ap1ID": 660730,
+                    "ap2Name": "3D shape 877401",
+                    "ap1ID": 625320,
                     "ap2ID": 866828
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 877401",
-                    "ap1ID": 625320,
+                    "ap2Name": "3D shape 848777",
+                    "ap1ID": 660730,
                     "ap2ID": 866828
                 },
                 {
