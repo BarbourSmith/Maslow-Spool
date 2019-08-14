@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 269,
-            "y": 79,
+            "x": 258,
+            "y": 64,
             "uniqueID": 597255,
             "ioValues": [
                 {
@@ -344,8 +344,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 257,
-            "y": 148,
+            "x": 256,
+            "y": 150,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -1102,8 +1102,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 269,
-                    "y": 79,
+                    "x": 258,
+                    "y": 64,
                     "uniqueID": 597255,
                     "ioValues": [
                         {
@@ -1119,8 +1119,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 257,
-                    "y": 148,
+                    "x": 256,
+                    "y": 150,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
