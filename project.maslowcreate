@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 266,
-            "y": 71,
+            "x": 269,
+            "y": 79,
             "uniqueID": 597255,
             "ioValues": [
                 {
@@ -218,8 +218,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 594,
-                    "y": 49,
+                    "x": 586,
+                    "y": 52,
                     "uniqueID": 660730,
                     "ioValues": [
                         {
@@ -344,8 +344,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 272,
-            "y": 173,
+            "x": 257,
+            "y": 148,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -459,8 +459,8 @@
                 {
                     "atomType": "Difference",
                     "name": "Difference",
-                    "x": 487,
-                    "y": 150,
+                    "x": 481,
+                    "y": 151,
                     "uniqueID": 578640,
                     "ioValues": []
                 },
@@ -1102,8 +1102,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 266,
-                    "y": 71,
+                    "x": 269,
+                    "y": 79,
                     "uniqueID": 597255,
                     "ioValues": [
                         {
@@ -1119,8 +1119,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 272,
-                    "y": 173,
+                    "x": 257,
+                    "y": 148,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
