@@ -158,8 +158,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Bolts",
-            "x": 573,
-            "y": 219,
+            "x": 571,
+            "y": 221,
             "uniqueID": 656758,
             "ioValues": [],
             "topLevel": false,
@@ -167,8 +167,8 @@
                 {
                     "atomType": "GitHubMolecule",
                     "name": "M4 Bolt",
-                    "x": 79,
-                    "y": 139,
+                    "x": 70,
+                    "y": 146,
                     "uniqueID": 500439,
                     "projectID": "197564175",
                     "ioValues": []
@@ -467,8 +467,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 573,
-                    "y": 219,
+                    "x": 571,
+                    "y": 221,
                     "uniqueID": 656758,
                     "ioValues": []
                 },
