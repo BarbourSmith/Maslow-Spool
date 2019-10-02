@@ -2,6 +2,8 @@
 # Bill Of Materials 
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
-|Total: |0|$0.00| |
+|Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
+|M4 Bolt|6|$0.54|https://www.mcmaster.com/92095a190|
+|Total: |17|$1.21| |
 
- 3xCOG MSRP: $0.00
+ 3xCOG MSRP: $3.63

@@ -24,7 +24,12 @@
                     "x": 217,
                     "y": 42,
                     "uniqueID": 456984,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Circle",
@@ -66,7 +71,12 @@
                     "x": 581,
                     "y": 231,
                     "uniqueID": 542796,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Extrude",
@@ -106,7 +116,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -265,6 +275,10 @@
                     "uniqueID": 866828,
                     "ioValues": [
                         {
+                            "name": "3D shape 921958",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 877401",
                             "ioValue": 10
                         },
@@ -280,13 +294,14 @@
                             "name": "3D shape 921958",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -344,8 +359,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 256,
-            "y": 150,
+            "x": 255,
+            "y": 143,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -425,7 +440,12 @@
                     "x": 329,
                     "y": 30,
                     "uniqueID": 359642,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -433,7 +453,12 @@
                     "x": 331,
                     "y": 83,
                     "uniqueID": 334647,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Assembly",
@@ -442,6 +467,10 @@
                     "y": 232,
                     "uniqueID": 916675,
                     "ioValues": [
+                        {
+                            "name": "3D shape 790794",
+                            "ioValue": ""
+                        },
                         {
                             "name": "3D shape 642951",
                             "ioValue": 10
@@ -454,7 +483,8 @@
                             "name": "3D shape 790794",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Difference",
@@ -493,6 +523,10 @@
                     "uniqueID": 255555,
                     "ioValues": [
                         {
+                            "name": "3D shape 824857",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 972407",
                             "ioValue": 10
                         },
@@ -504,7 +538,8 @@
                             "name": "3D shape 824857",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Equation",
@@ -553,6 +588,10 @@
                     "uniqueID": 637707,
                     "ioValues": [
                         {
+                            "name": "3D shape 269136",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 623701",
                             "ioValue": 10
                         },
@@ -564,7 +603,8 @@
                             "name": "3D shape 269136",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Translate",
@@ -591,7 +631,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -763,7 +803,12 @@
                     "x": 449,
                     "y": 46,
                     "uniqueID": 530150,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Input",
@@ -771,7 +816,12 @@
                     "x": 511,
                     "y": 83,
                     "uniqueID": 127301,
-                    "ioValues": []
+                    "ioValues": [
+                        {
+                            "name": "default value",
+                            "ioValue": 10
+                        }
+                    ]
                 },
                 {
                     "atomType": "Rotate",
@@ -875,6 +925,10 @@
                     "uniqueID": 877332,
                     "ioValues": [
                         {
+                            "name": "3D shape 299120",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 131451",
                             "ioValue": 10
                         },
@@ -886,7 +940,8 @@
                             "name": "3D shape 299120",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Equation",
@@ -934,7 +989,7 @@
                     "y": 214,
                     "uniqueID": 830079,
                     "ioValues": [],
-                    "selectedColorIndex": 0
+                    "selectedColorIndex": "9"
                 },
                 {
                     "atomType": "Add BOM Tag",
@@ -955,7 +1010,7 @@
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
@@ -1119,8 +1174,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 256,
-                    "y": 150,
+                    "x": 255,
+                    "y": 143,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
@@ -1158,6 +1213,10 @@
                     "uniqueID": 822437,
                     "ioValues": [
                         {
+                            "name": "3D shape 847961",
+                            "ioValue": ""
+                        },
+                        {
                             "name": "3D shape 707706",
                             "ioValue": 10
                         },
@@ -1173,13 +1232,14 @@
                             "name": "3D shape 847961",
                             "ioValue": 10
                         }
-                    ]
+                    ],
+                    "removeCutawayGeometry": true
                 },
                 {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
-                    "y": 164,
+                    "y": 163.5,
                     "ioValues": []
                 }
             ],
