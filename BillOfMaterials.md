@@ -3,7 +3,7 @@
  |Part|Number Needed|Price|Source| 
  |----|----------|-----|-----|
 |Amsteel Blue 3/16|11|$0.67|http://www.amsteelblue.com/amsteel-blue-3-16-synthetic-rope-by-the-foot-4-900-lbs/|
-|M4 x 20mm Bolt|6|$0.71|https://www.mcmaster.com/91239a152|
-|Total: |17|$1.38| |
+|Spool Center|1|$3.00|www.example.com|
+|Total: |12|$3.67| |
 
- 3xCOG MSRP: $4.15
+ 3xCOG MSRP: $11.01

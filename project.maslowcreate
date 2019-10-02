@@ -113,6 +113,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1090,
+                    "y": 141,
+                    "uniqueID": 978201,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Spool Center",
+                        "numberNeeded": 1,
+                        "costUSD": 3,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -159,8 +174,14 @@
                 },
                 {
                     "ap1Name": "geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 793721,
+                    "ap2ID": 978201
+                },
+                {
+                    "ap1Name": "geometry",
                     "ap2Name": "number or geometry",
-                    "ap1ID": 793721
+                    "ap1ID": 978201
                 }
             ],
             "fileTypeVersion": 1
@@ -628,6 +649,21 @@
                     ]
                 },
                 {
+                    "atomType": "Add BOM Tag",
+                    "name": "Add BOM Tag",
+                    "x": 1158,
+                    "y": 182,
+                    "uniqueID": 396157,
+                    "ioValues": [],
+                    "BOMitem": {
+                        "BOMitemName": "Side Steel Plate",
+                        "numberNeeded": 1,
+                        "costUSD": 0.6,
+                        "source": "www.example.com",
+                        "totalNeeded": 0
+                    }
+                },
+                {
                     "atomType": "Output",
                     "name": "Output",
                     "x": 1316,
@@ -728,14 +764,20 @@
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "number or geometry",
-                    "ap1ID": 637707
+                    "ap2Name": "geometry",
+                    "ap1ID": 637707,
+                    "ap2ID": 396157
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "3D shape 362331",
                     "ap1ID": 256333,
                     "ap2ID": 637707
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "number or geometry",
+                    "ap1ID": 396157
                 }
             ],
             "fileTypeVersion": 1
@@ -861,7 +903,7 @@
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 704,
-                    "y": 113,
+                    "y": 111,
                     "uniqueID": 677536,
                     "ioValues": [
                         {
@@ -874,7 +916,7 @@
                         },
                         {
                             "name": "z-axis degrees",
-                            "ioValue": -6
+                            "ioValue": -7
                         }
                     ]
                 },
@@ -891,7 +933,7 @@
                         },
                         {
                             "name": "yDist",
-                            "ioValue": -16
+                            "ioValue": -18
                         },
                         {
                             "name": "zDist",
@@ -1208,14 +1250,10 @@
                 {
                     "atomType": "Assembly",
                     "name": "Assembly",
-                    "x": 605,
-                    "y": 113,
+                    "x": 603,
+                    "y": 117,
                     "uniqueID": 822437,
                     "ioValues": [
-                        {
-                            "name": "3D shape 847961",
-                            "ioValue": ""
-                        },
                         {
                             "name": "3D shape 707706",
                             "ioValue": 10
@@ -1282,7 +1320,7 @@
                 },
                 {
                     "ap1Name": "Geometry",
-                    "ap2Name": "3D shape 707706",
+                    "ap2Name": "3D shape 847961",
                     "ap1ID": 597255,
                     "ap2ID": 822437
                 },
