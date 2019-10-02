@@ -16,13 +16,7 @@
 ## Mounting Bolts
 
 
-## M4 Bolt
-
-
-## Head
-
-
-## Shaft
+## M4x20 Bolt
 
 
 undefined
