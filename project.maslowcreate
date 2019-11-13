@@ -3,8 +3,8 @@
         {
             "atomType": "Molecule",
             "name": "Center",
-            "x": 258,
-            "y": 64,
+            "x": 268,
+            "y": 68,
             "uniqueID": 597255,
             "ioValues": [
                 {
@@ -189,8 +189,8 @@
         {
             "atomType": "Molecule",
             "name": "Mounting Bolts",
-            "x": 634,
-            "y": 239,
+            "x": 654,
+            "y": 251,
             "uniqueID": 656758,
             "ioValues": [],
             "topLevel": false,
@@ -372,8 +372,8 @@
         {
             "atomType": "Molecule",
             "name": "Sides",
-            "x": 255,
-            "y": 143,
+            "x": 277,
+            "y": 151,
             "uniqueID": 663980,
             "ioValues": [
                 {
@@ -500,10 +500,23 @@
                     "ioValues": []
                 },
                 {
+                    "atomType": "Extrude",
+                    "name": "Extrude",
+                    "x": 581,
+                    "y": 113,
+                    "uniqueID": 907488,
+                    "ioValues": [
+                        {
+                            "name": "height",
+                            "ioValue": 2
+                        }
+                    ]
+                },
+                {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 558,
-                    "y": 181,
+                    "x": 621,
+                    "y": 184,
                     "uniqueID": 344629,
                     "ioValues": [],
                     "BOMitem": {
@@ -515,31 +528,18 @@
                     }
                 },
                 {
-                    "atomType": "Extrude",
-                    "name": "Extrude",
-                    "x": 650,
-                    "y": 95,
-                    "uniqueID": 907488,
-                    "ioValues": [
-                        {
-                            "name": "height",
-                            "ioValue": 2
-                        }
-                    ]
-                },
-                {
                     "atomType": "Molecule",
                     "name": "Mounting Bolts",
-                    "x": 634,
-                    "y": 239,
+                    "x": 654,
+                    "y": 251,
                     "uniqueID": 656758,
                     "ioValues": []
                 },
                 {
                     "atomType": "Equation",
                     "name": "Equation",
-                    "x": 788,
-                    "y": 26,
+                    "x": 760,
+                    "y": 42,
                     "uniqueID": 751354,
                     "ioValues": [
                         {
@@ -574,8 +574,8 @@
                 {
                     "atomType": "Rotate",
                     "name": "Rotate",
-                    "x": 862.2803806734992,
-                    "y": 100.4758418740849,
+                    "x": 856,
+                    "y": 107,
                     "uniqueID": 156581,
                     "ioValues": [
                         {
@@ -692,18 +692,18 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 578640,
-                    "ap2ID": 344629
-                },
-                {
-                    "ap1Name": "geometry",
-                    "ap2Name": "geometry",
-                    "ap1ID": 344629,
                     "ap2ID": 907488
                 },
                 {
                     "ap1Name": "geometry",
-                    "ap2Name": "3D shape 972407",
+                    "ap2Name": "geometry",
                     "ap1ID": 907488,
+                    "ap2ID": 344629
+                },
+                {
+                    "ap1Name": "geometry",
+                    "ap2Name": "3D shape 972407",
+                    "ap1ID": 344629,
                     "ap2ID": 255555
                 },
                 {
@@ -753,8 +753,8 @@
         {
             "atomType": "Molecule",
             "name": "Cable",
-            "x": 265,
-            "y": 243,
+            "x": 266,
+            "y": 244,
             "uniqueID": 866650,
             "ioValues": [
                 {
@@ -1159,8 +1159,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Center",
-                    "x": 258,
-                    "y": 64,
+                    "x": 268,
+                    "y": 68,
                     "uniqueID": 597255,
                     "ioValues": [
                         {
@@ -1176,8 +1176,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Sides",
-                    "x": 255,
-                    "y": 143,
+                    "x": 277,
+                    "y": 151,
                     "uniqueID": 663980,
                     "ioValues": [
                         {
@@ -1193,8 +1193,8 @@
                 {
                     "atomType": "Molecule",
                     "name": "Cable",
-                    "x": 265,
-                    "y": 243,
+                    "x": 266,
+                    "y": 244,
                     "uniqueID": 866650,
                     "ioValues": [
                         {
