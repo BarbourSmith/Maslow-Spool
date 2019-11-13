@@ -502,14 +502,14 @@
                 {
                     "atomType": "Add BOM Tag",
                     "name": "Add BOM Tag",
-                    "x": 539,
-                    "y": 155,
-                    "uniqueID": 396157,
+                    "x": 558,
+                    "y": 181,
+                    "uniqueID": 344629,
                     "ioValues": [],
                     "BOMitem": {
-                        "BOMitemName": "Side Steel Plate",
+                        "BOMitemName": "Spool Side",
                         "numberNeeded": 1,
-                        "costUSD": 0.6,
+                        "costUSD": 0.8,
                         "source": "www.example.com",
                         "totalNeeded": 0
                     }
@@ -692,12 +692,12 @@
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
                     "ap1ID": 578640,
-                    "ap2ID": 396157
+                    "ap2ID": 344629
                 },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",
-                    "ap1ID": 396157,
+                    "ap1ID": 344629,
                     "ap2ID": 907488
                 },
                 {
