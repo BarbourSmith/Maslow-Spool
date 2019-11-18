@@ -205,25 +205,12 @@
                     "ioValues": []
                 },
                 {
-                    "atomType": "GitHubMolecule",
-                    "name": "M4 55mm Bolt",
-                    "x": 157,
-                    "y": 233,
-                    "uniqueID": 261649,
-                    "projectID": "202528433",
-                    "ioValues": []
-                },
-                {
                     "atomType": "Rotate",
                     "name": "Rotate",
                     "x": 303,
                     "y": 91,
                     "uniqueID": 839812,
                     "ioValues": [
-                        {
-                            "name": "geometry",
-                            "ioValue": ""
-                        },
                         {
                             "name": "x-axis degrees",
                             "ioValue": 0
@@ -332,6 +319,12 @@
                 }
             ],
             "allConnectors": [
+                {
+                    "ap1Name": "Geometry",
+                    "ap2Name": "geometry",
+                    "ap1ID": 491149,
+                    "ap2ID": 839812
+                },
                 {
                     "ap1Name": "geometry",
                     "ap2Name": "geometry",

@@ -28,12 +28,6 @@ undefined
 undefined
 
 
-## M4 55mm Bolt
-
-
-undefined
-
-
 ## Cable
 
 
