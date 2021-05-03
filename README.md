@@ -4,33 +4,3 @@
 
 ![](/project.svg)
 
-## Maslow Spool
-
-
-## Center
-
-
-undefined
-
-
-## Sides
-
-
-undefined
-
-
-## Mounting Bolts
-
-
-## M4x20 Bolt
-
-
-undefined
-
-
-## Cable
-
-
-undefined
-
-
